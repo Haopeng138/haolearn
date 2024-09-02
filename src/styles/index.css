@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #fffff9;
+  --color-tertiary: #0000ff;
+
+  --font-family: 'Roboto', sans-serif;
+}
+
+
+[data-theme='dark'] {
+  --color-primary: #fffff1;
+  --color-secondary: #000000;
+  --color-tertiary: #ffff00;
+}
+
+h1, div{
+  color: var(--color-primary);
+}
+
+body {
+  background-color: var(--color-secondary);
+}
